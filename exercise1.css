@@ -1,0 +1,108 @@
+body {
+    text-align: center;
+    background-color: light;
+    /* margin: 60px; */
+    padding: 20px;
+}
+
+.whole {
+    display: block;
+    padding-left: 20px;
+    color: grey;
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.whole .image {
+    padding-right: 20px;
+    padding-top: 35px;
+    float: left;
+    text-align: left;
+}
+
+.whole .blog {
+    float: left;
+    width: 40%;
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.whole .all {
+    float: right;
+    text-align: left;
+    width: 40%;
+    text-align: center;
+    /* padding-bottom: 100px; */
+}
+
+.whole .all ul {
+    padding-bottom: 0px;
+    text-align: 20px;
+}
+
+.whole .all li {
+    list-style: none;
+    margin-top: 40px;
+    color: grey;
+    text-decoration: none;
+    float: left;
+    list-style: none;
+    padding: 5px;
+}
+
+.whole .all a {
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+}
+
+.whole .blog h1 {
+    color: black;
+}
+
+.secondDiv {
+    display: block;
+}
+
+span {
+    margin: 20px;
+    color: grey;
+}
+
+.takeit {
+    text-align: center;
+    display: inline;
+}
+
+button {
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white
+}
+
+p {
+    text-align: left
+}
+
+footer {
+    display: block;
+}
+
+footer li {
+    float: left;
+    padding: 10px;
+    list-style: none;
+}
+
+footer ul {
+    padding: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
