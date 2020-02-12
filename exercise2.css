@@ -1,12 +1,10 @@
 body {
     background-color: whitesmoke;
-    
 }
 
 .page {
     display: block;
     width: 800px;
-    
 }
 
 .left_page {
@@ -25,9 +23,9 @@ body {
     display: block;
     height: 100vw;
     width: 00px;
-    margin-left:20px; 
+    margin-left: 20px;
     /* border:900px; */
-    padding-right:50px
+    padding-right: 50px
 }
 
 .right_page .logo {
@@ -37,7 +35,6 @@ body {
     padding-left: 10px;
     margin-right: 50px;
     /* border-left: 100px */
-    
 }
 
 .right_page .image {
@@ -52,13 +49,12 @@ body {
 
 .logo h2 {
     /* display: inline block; */
-    
 }
 
 .content {
     display: block;
     padding: 0px;
-    width:900px
+    width: 900px
 }
 
 .right_page p {
@@ -75,7 +71,7 @@ body {
 .left_page {
     /* height: 850px; */
     height: 100vw;
-    position:relative
+    position: relative
 }
 
 .left_page li {
@@ -94,30 +90,28 @@ button {
     color: grey;
     background-color: grey;
 }
+
 .footer {
-  position: relative;
-  text-align:center;
-  bottom:40px;
-  width:40%;
-  font-size:10px;
-  position: fixed;
-  padding-right : 50px;
-  margin-right: 40px
+    position: relative;
+    text-align: center;
+    bottom: 40px;
+    width: 40%;
+    font-size: 10px;
+    position: fixed;
+    padding-right: 50px;
+    margin-right: 40px
 }
 
-h4{
-   line-height:0px ;
-   margin-bottom:20px;
-   margin-top: 0px;
-   padding-top:10px;
-   padding-bottom:10px
+h4 {
+    line-height: 0px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px
 }
 
 p {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding:0px
+    padding: 0px
 }
-    
-
- 

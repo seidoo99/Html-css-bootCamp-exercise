@@ -1,0 +1,187 @@
+        * {
+            /* box-sizing: border-box */
+        }
+        
+        body {
+            width: 95%;
+            height: 90%;
+            background-image: linear-gradient(black 50%);
+            overflow: scroll;
+            position: fixed;
+            margin-right: 20px;
+        }
+        
+        .container {
+            background-size: 100%;
+            /* display: block; */
+            height: 95%;
+            position: relative;
+            width: 80%
+            /* display: block */
+        }
+        
+        .top-content {
+            background-image: url(image/atlanta-skyline-3-b.jpg);
+            position: fixed;
+            opacity: 0.5;
+            z-index: 99;
+            color: black;
+            height: 40%;
+            width: 100%;
+            top: 0;
+            background-color: lightslategray;
+        }
+        
+        .bottom-content {
+            height: 60%;
+            width: 100%;
+            display: inline-block;
+            bottom: 0;
+            position: fixed;
+            text-align: center;
+            padding-left: 200px;
+            padding-right: 100px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            /* margin-right: 400px; */
+        }
+        
+        nav {
+            float: right;
+            width: 30%
+        }
+        
+        nav li {
+            width: 30px;
+            padding-left: 10px;
+        }
+        
+        .top-content li {
+            list-style: none;
+            display: inline
+        }
+        
+        .arrow img {
+            /* background-size: cover */
+            height: 100px;
+        }
+        
+        .logo img {
+            height: 100px;
+            width: 200px;
+            position: center;
+            padding-left: 45%;
+            position: relative;
+            padding-top: 40px;
+        }
+        
+        h1 {
+            text-align: center;
+            line-height: 10px;
+        }
+        
+        h2 {
+            text-align: center;
+            line-height: 20px
+        }
+        
+        .arrow .img {
+            color: black;
+        }
+        
+        .at img {
+            /* display: inline-block; */
+            float: left;
+            padding-left: 60px;
+            padding-bottom: 20px;
+            padding-top: 10px;
+            width: 120px;
+            height: 120px;
+        }
+        
+        .hash img {
+            float: left;
+            padding-left: 250px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            width: 120px;
+            height: 120px;
+        }
+        
+        .dollar img {
+            float: left;
+            padding-left: 250px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 120px;
+            height: 120px;
+        }
+        
+        .top-text {
+            text-align: center;
+            padding-top: 20px;
+            padding-right: 250px
+        }
+        
+        .description {
+            display: inline-block;
+            padding-right: 100px;
+            /* padding-top: 10px; */
+            float: left;
+            text-align: center;
+            padding-right: 20px;
+            margin-bottom: 100px;
+            margin-top: 0px;
+        }
+        
+        .description ul {
+            display: inline-block;
+            margin-right: 0px;
+            margin-bottom: 50px;
+            padding-bottom: 100px;
+            margin-left: 20px;
+        }
+        
+        .description li {
+            list-style: none;
+            display: inline-block;
+            padding-right: 200px;
+            padding-left: 0px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        
+        h3 {
+            text-align: center;
+            line-height: 10px;
+        }
+        
+        .footer {
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            height: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        footer ul {
+            background-color: grey;
+            width: 100%;
+            padding-left: 100px;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        
+        footer li {
+            display: inline-block;
+            text-align: center;
+            padding-bottom: 30px;
+            padding-left: 20px;
+        }
+        
+        */ p {
+            margin-top: 0px;
+        }
+        
+        @media (max-width: 600px) {}
