@@ -3,7 +3,7 @@ body {
 }
 
 .page {
-    display: block;
+    display: flex;
     width: 800px;
 }
 
@@ -22,19 +22,16 @@ body {
     text-align: left;
     display: block;
     height: 100vw;
-    width: 00px;
+    width: 100px;
     margin-left: 20px;
-    /* border:900px; */
     padding-right: 50px
 }
 
 .right_page .logo {
-    /* float: left; */
     padding-right: 40px;
     width: 40%;
     padding-left: 10px;
     margin-right: 50px;
-    /* border-left: 100px */
 }
 
 .right_page .image {
@@ -45,10 +42,6 @@ body {
     margin-top: 20px;
     margin-right: 10px;
     padding-left: 10px
-}
-
-.logo h2 {
-    /* display: inline block; */
 }
 
 .content {
@@ -69,7 +62,6 @@ body {
 }
 
 .left_page {
-    /* height: 850px; */
     height: 100vw;
     position: relative
 }
@@ -95,11 +87,11 @@ button {
     position: relative;
     text-align: center;
     bottom: 40px;
-    width: 40%;
-    font-size: 10px;
+    font-size: 15px;
     position: fixed;
-    padding-right: 50px;
-    margin-right: 40px
+    padding-right: 30px;
+    margin-right: 20px;
+    bottom: 10px
 }
 
 h4 {
