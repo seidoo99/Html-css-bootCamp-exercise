@@ -1,19 +1,21 @@
 body {
     text-align: center;
     background-color: light;
-    /* margin: 60px; */
     padding: 20px;
+    margin-left: 250px;
+    margin-right: 100px;
+    background: lightgray;
+    font: 20px;
 }
 
 .whole {
-    display: block;
     padding-left: 20px;
     color: grey;
     margin: 0 auto;
     width: 100%;
-    height: 100px;
-    /* border: 1px solid black; */
-    text-align: center;
+    height: 90%;
+    text-align: left;
+    margin-left: 50px;
 }
 
 .whole .image {
@@ -34,25 +36,27 @@ body {
 
 .whole .all {
     float: right;
-    text-align: left;
     width: 40%;
     text-align: center;
-    /* padding-bottom: 100px; */
+    padding-left: 50px;
+    padding-bottom: 30px;
 }
 
 .whole .all ul {
     padding-bottom: 0px;
     text-align: 20px;
+    padding-right: 120px;
 }
 
 .whole .all li {
     list-style: none;
-    margin-top: 40px;
+    margin-top: 20px;
     color: grey;
     text-decoration: none;
     float: left;
     list-style: none;
-    padding: 5px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .whole .all a {
@@ -66,7 +70,13 @@ body {
 }
 
 .secondDiv {
-    display: block;
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.date {
+    text-align: center;
+    padding-right: 100px
 }
 
 span {
@@ -76,18 +86,22 @@ span {
 
 .takeit {
     text-align: center;
-    display: inline;
+    margin-top: 100px;
+    padding-right: 20px;
+    margin-right: 100px;
 }
 
 button {
     background-color: cornflowerblue;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color: white
+    color: white;
+    text-align: center
 }
 
-p {
-    text-align: left
+.button1 {
+    text-align: center;
+    padding-right: 120px
 }
 
 footer {
@@ -106,4 +120,23 @@ footer ul {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-family: "arial", Times, serif;
+    text-align: left;
+    font-size: 16px
+}
+
+h2 {
+    align-items: center;
+    line-height: 20px;
+    padding-right: 30px;
+    padding-left: 50px;
 }
